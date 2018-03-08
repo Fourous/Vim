@@ -1,0 +1,75 @@
+git 基本操作
+怎么与github联系等ssh基本不赘述
+在文件夹demo中
+
+/demo
+
+cd demo
+git init 初始化仓库,只需要做一次
+git add README 添加一个文件
+这里add是将提交的快照存到缓冲区里面去
+git commit -m "this is the first commit"
+这里的commit是缓冲区的内容传到仓库里面去
+git push origin master 这里是将本地提交,提交到github上
+git status  查看状态
+git branch 查看分支,主分支是master
+git branch ubuntu  创建分支Ubuntu
+git checkout ubuntu 切换到Ubuntu分支上去
+这里,其实分支已经有了相关文件,如果添加add commit后,提交要
+git push origin ubuntu    //可以添加上git push -u orign master 将本地master和远程master关联,不过第一次就行
+origin 代表的是远程,Ubuntu是分支名称
+git log 查看提交的记录显示详细信息
+git shortlog 可以对提交的名字进行分组,显示每个开发者所有提交的记录,适用于在文档中建立发布日志
+git diff 查看提交的具体变化
+git apt install gtk  图形化界面查看log记录
+git blame 制定查看某文件的修改记录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

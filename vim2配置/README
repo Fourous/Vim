@@ -1,0 +1,57 @@
+下载bundle插件管理器,这里需要在vimrc中进行配置
+if filereadable(expand("~/.vimrc.bundles"))
+     		source ~/.vimrc.bundles
+     	endif
+     	
+上面这一行,需要在vim中指定
+在vimrc所在文件夹中增加.vimrc.bundle这一个文件
+在vimbundle中,增加插件,一般批量添加后
+在vim中,底线命令模式
+:BundleInstall  注意,这里需要注意大小写,一般会自动进行检索,如果插件没有安装则进行安装
+
+
+vimrc中的注释,是以"来开头
+vim中的除了插件配置,还有通过代码来进行配置的
+下面有几个常用的代码配置
+set nu   设置行号(不设置行号set nonu)
+底线模式下-----set coloescheme 空格后通过tab键可以转换颜色  也可在vimrc中配置,colorsheme molokai
+设置颜色:setbackground=back
+打开色彩:syntax enable
+右下角显示光标行列信息:set ruler
+行和段开始使用制表符:set smarttab
+C 程序自动缩进:set smartindent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
