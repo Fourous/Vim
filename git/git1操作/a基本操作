@@ -24,7 +24,12 @@ git diff 查看提交的具体变化
 git apt install gtk  图形化界面查看log记录
 git blame 制定查看某文件的修改记录
 
-
+稍微高级点的用法
+*****
+git checkout 这个操作比较危险,会将暂存区的文件或者选中的暂存区的文件替换到工作区
+git rm cached <file>  从暂存区删除数据,工作区并不做修改
+git reset HEAD	会将master也就是版本区的数据更新到暂存区,但是工作区的不会改变
+git checkout HEAD 这个操作更加为危险,将master分支的数据全部或者部分替换到暂存区和工作区
 
 
 
