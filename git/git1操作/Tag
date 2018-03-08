@@ -1,0 +1,2 @@
+Tag的概念类似于branch,区别是branch可以不断改变和merge但是tag不行,Tag可以认为是一个快照,一个记录点,用于记录某个分支点或者commit点的历史快照,Tag通常打在master分支上,以保证代码的准确性
+
